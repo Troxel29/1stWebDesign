@@ -1,0 +1,62 @@
+h1,h6{color: aqua;}
+
+body{color: blueviolet;}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+color: aqua;
+}
+
+li a:hover {
+background-color: #111;
+}
+
+#banner{
+    background-color: rgb(13, 212, 36);
+    padding-bottom: 1px;
+    padding-top: 1px;
+    text-align: center;
+}
+
+#banner p{
+    margin: 0;
+}
+#nav, nav{
+    background-color: black;
+    text-align: left;
+    background-color: rgb(26, 9, 94);
+}
+#nav a:hover{
+    background-color: black;
+    color: blueviolet;
+}
+#footer a, footera{
+    background-color: rgb(101, 76, 227);
+    overflow: hidden;
+    text-decoration: overline;
+    display: block;
+    
+}
+#main{
+    width:80%;
+    margin: 0 auto; 
+}
+#article{
+    margin-bottom: 10px;
+}
