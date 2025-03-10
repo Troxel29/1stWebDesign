@@ -47,9 +47,9 @@
         </tr>
     </table>
     <h2>General inqueries</h2>
-    <Form action=confirmation.html>
+    <Form action="confirmation.html" id="contactform">
         <label for="fullname">Name: *</labels><br>
-        <input required="text" id="FullNmae" name="FullName"/>
+        <input required="text" id="FullName" name="FullName"/>
         <br/><br>
         <label for="emailaddress">Email Address: *</label><br>
         <input type="email" id="email" name="emailaddress"/>
@@ -63,13 +63,24 @@
         <textarea cols="50" rows="10" maxlength="150" id="inquiry" name="inquiry"></textarea>
 
         <input type="submit" />
+        <button type="button" onclick="ClearForm()">Clear</button>
+
+
 
     </Form>
+
+    <footer>
+
         <br>
         <br>
         <a href="https://www.Amazon.com">Amazon</a>
                 <br>
                 <a href="https://truthofgod.com">FirstChurch</a>
+    </footer>
+    
+        <script src="J.Scrips/Site.JS">
+            
+        </script>
 
 </body>
 </html>
